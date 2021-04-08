@@ -2,16 +2,16 @@
 A simple windows application to convert images into video.
 
 ## Credits
-This application was retrieved from https://sourceforge.net/projects/makeavi/, where it was developed by Sourceforge user Redshoe8 (David) and shared under GLP2. 
+This application was retrieved from https://sourceforge.net/projects/makeavi/, where it was developed by Sourceforge user jridley (John Ridley) and shared under GPL2. 
 
-The remainder of this readme was originally written by David, but has been modified so it doesn't sound like a contributor to this repository on Github wrote it, as the content originally said "I wrote...", but now says "David wrote..." or "they wrote..."
+The remainder of this readme was originally written by John Ridley, but has been modified so it doesn't sound like a contributor to this repository on Github wrote it, as the content originally said "I wrote...", but now says "John wrote..." or "they wrote..."
 
 ## Introduction
-This is a quick and dirty app that David wrote because they wanted to do some work with creating time-lapse movies. They set up a digital camera to take a picture every 10 seconds for several hours, then string the JPGs together into an AVI, and do any video work from there.
+This is a quick and dirty app that John wrote because they wanted to do some work with creating time-lapse movies. They set up a digital camera to take a picture every 10 seconds for several hours, then string the JPGs together into an AVI, and do any video work from there.
 
-David took a quick look around, but didn't find any free implementations for Windows. So they looked around and found some code to base this on, and about 4 hours later, here it is.
+John took a quick look around, but didn't find any free implementations for Windows. So they looked around and found some code to base this on, and about 4 hours later, here it is.
 
-The core of the AVI generation is the Microsoft/Windows AVI API. Wrapped around that is a thin wrapper, which David found at www.codeguru.com, but it may be from a Microsoft sample app.
+The core of the AVI generation is the Microsoft/Windows AVI API. Wrapped around that is a thin wrapper, which John found at www.codeguru.com, but it may be from a Microsoft sample app.
 
 The image loading end is handled by the FreeImage library, which is currently at http://www.6ixsoft.com/. It can handle many different image types, but not GIF. GIF is patent burdened and will not be supported, so don't bother asking.
 
